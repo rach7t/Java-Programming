@@ -20,5 +20,6 @@ public class sep3 {
         for (String name : names) {
             System.out.println(name);
         }
+        sc.close();
     }
 }

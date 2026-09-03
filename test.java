@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Test{
+public class test{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x = sc.nextInt();
@@ -14,5 +14,6 @@ public class Test{
         float ft = sc.nextFloat();
         System.out.println();
         System.out.println("Your inputs are : " + x + ' ' + b + ' ' + s + ' ' + d + ' ' + ch + ' ' + bl + ' '  + str + ' ' + lg + ' ' + ft);
+        sc.close();
     }
 }
